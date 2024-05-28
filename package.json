@@ -1,20 +1,24 @@
 {
-  "name": "camera",
+  "dependencies": {
+    "@line/bot-sdk": "^9.2.2",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "linegrok": "^2.0.0",
+    "mailgun-js": "^0.22.0",
+    "ngrok": "^5.0.0-beta.2"
+  },
+  "name": "desktop",
   "version": "1.0.0",
-  "main": "camera.js",
+  "main": "LINE.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "@line/bot-sdk": "^9.2.2",
-    "csv-writer": "^1.6.0",
-    "dotenv": "^16.4.5",
-    "express": "^4.19.2",
-    "linegrok": "^2.0.0",
-    "ngrok": "^5.0.0-beta.2"
+  "devDependencies": {
+    "serverless-offline": "^13.6.0"
   },
   "description": ""
 }
